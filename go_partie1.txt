@@ -1,0 +1,662 @@
+# some first moves
+# black play 2,2
+grid[1][1].play('B')
+# white play 2,3
+grid[1][2].play('W')
+
+# black play 1,2
+grid[0][1].play('B')
+# white play 2,9
+grid[1][8].play('W')
+
+# black play 2,8
+grid[1][7].play('B')
+# white play 3,8
+grid[2][7].play('W')
+
+
+[[.  B2 .  .  .  .  .  .  . ]
+ [.  B2 W3 .  .  .  .  B2 W2]
+ [.  .  .  .  .  .  .  W3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]] B: 3/6  W:3/8
+[[.  B2 .  .  .  .  .  .  . ]
+ [.  B2 W2 .  .  .  .  B2 W2]
+ [.  .  B3 .  .  .  W3 W2 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]] B: 4/9  W:4/9
+B plays ! Enter r,c : 2,4
+[[.  B2 .  .  .  .  .  .  . ]
+ [.  B3 .  B4 .  .  .  B2 W2]
+ [.  .  B4 .  .  .  W3 W2 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 5/15  W:3/7
+W plays ! Enter r,c : 1,8
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  .  .  .  W3]
+ [.  .  B4 .  .  .  W3 W3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 4/13  W:4/12
+B plays ! Enter r,c : 3,5
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  .  .  .  W3]
+ [.  .  B4 .  B4 .  W3 W3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 5/17  W:4/12
+W plays ! Enter r,c : 2,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 5/17  W:5/16
+B plays ! Enter r,c : 4,7
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W2 W3 . ]
+ [.  .  .  .  .  .  B3 .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 6/20  W:5/15
+W plays ! Enter r,c : 4,8
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W2 W2 . ]
+ [.  .  .  .  .  .  B2 W2 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 6/19  W:6/16
+B plays ! Enter r,c : 5,8
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W2 W2 . ]
+ [.  .  .  .  .  .  B2 W1 . ]
+ [.  .  .  .  .  .  .  B3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 7/22  W:6/15
+W plays ! Enter r,c : 5,7
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B2 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 6/19  W:7/20
+B plays ! Enter r,c : 5,9
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B1 B2]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 7/20  W:7/20
+W plays ! Enter r,c : 6,8
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 7/19  W:8/23
+B plays ! Enter r,c : 7,8
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  .  B3 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 8/22  W:8/22
+W plays ! Enter r,c : 7,7
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B2 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 8/21  W:9/25
+B plays ! Enter r,c : 7,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B3 W2 B2 . ]
+ [.  .  .  .  .  .  .  .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 9/24  W:9/24
+W plays ! Enter r,c : 8,7
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B3 W1 B2 . ]
+ [.  .  .  .  .  .  W3 .  . ]
+ [.  .  .  .  .  .  .  .  . ]]
+Score (stones/liberties) :  B: 9/24  W:10/26
+B plays ! Enter r,c : 9,7
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B3 W1 B2 . ]
+ [.  .  .  .  .  .  W2 .  . ]
+ [.  .  .  .  .  .  B2 .  . ]]
+Score (stones/liberties) :  B: 10/26  W:10/25
+W plays ! Enter r,c : 9,8
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B3 W1 B2 . ]
+ [.  .  .  .  .  .  W3 .  . ]
+ [.  .  .  .  .  .  .  W3 . ]]
+Score (stones/liberties) :  B: 9/24  W:11/29
+B plays ! Enter r,c : 8,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B2 W1 B2 . ]
+ [.  .  .  .  .  B2 W2 .  . ]
+ [.  .  .  .  .  .  .  W3 . ]]
+Score (stones/liberties) :  B: 10/25  W:11/28
+W plays ! Enter r,c : 9,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B2 W1 B2 . ]
+ [.  .  .  .  .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 10/24  W:12/30
+B plays ! Enter r,c : 7,5
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  B3 B1 W1 B2 . ]
+ [.  .  .  .  .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 11/26  W:12/30
+W plays ! Enter r,c : 8,5
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  B2 B1 W1 B2 . ]
+ [.  .  .  .  W2 B0 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 11/24  W:13/32
+B plays ! Enter r,c : 8,4
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  B3 B1 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 12/30  W:12/30
+W plays ! Enter r,c : 6,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  W3 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 12/29  W:13/33
+B plays ! Enter r,c : 5,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  .  .  W2 . ]
+ [.  .  .  .  .  B2 W2 B0 B2]
+ [.  .  .  .  .  W2 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 13/31  W:13/31
+W plays ! Enter r,c : 4,6
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  W4 .  W2 . ]
+ [.  .  .  .  .  .  W3 B0 B2]
+ [.  .  .  .  .  W3 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 12/29  W:14/37
+B plays ! Enter r,c : 5,4
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  W4 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  .  .  .  .  W3 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 13/33  W:14/37
+W plays ! Enter r,c : 5,5
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B4 .  W3 W2 . ]
+ [.  .  .  .  .  W4 .  W2 . ]
+ [.  .  .  B3 W3 .  W3 B0 B2]
+ [.  .  .  .  .  W3 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 13/32  W:15/40
+B plays ! Enter r,c : 4,5
+[[.  B2 .  .  .  .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B1 W3 .  W2 . ]
+ [.  .  .  B3 W2 .  W3 B0 B2]
+ [.  .  .  .  .  W3 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 14/32  W:15/38
+W plays ! Enter r,c : 1,5
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B1 W3 .  W2 . ]
+ [.  .  .  B3 W2 .  W3 B0 B2]
+ [.  .  .  .  .  W3 .  W2 . ]
+ [.  .  .  .  B3 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 14/32  W:16/41
+B plays ! Enter r,c : 6,5
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  .  .  .  B2 W2 .  W2 . ]
+ [.  .  .  .  B2 B0 W1 B2 . ]
+ [.  .  .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 15/35  W:15/38
+W plays ! Enter r,c : 8,2
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  .  .  .  B2 W2 .  W2 . ]
+ [.  .  .  .  B2 B0 W1 B2 . ]
+ [.  W4 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 15/35  W:16/42
+B plays ! Enter r,c : 7,2
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  .  .  .  B2 W2 .  W2 . ]
+ [.  B3 .  .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 16/38  W:16/41
+W plays ! Enter r,c : 6,2
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  W3 .  .  B2 W2 .  W2 . ]
+ [.  B2 .  .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 16/37  W:17/44
+B plays ! Enter r,c : 7,3
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  W3 .  .  B2 W2 .  W2 . ]
+ [.  B1 B3 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 17/39  W:17/44
+W plays ! Enter r,c : 6,3
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  .  B4 .  .  W3 B0 B2]
+ [.  W2 W2 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 17/38  W:18/45
+B plays ! Enter r,c : 5,3
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B4 .  B3 .  W3 W2 . ]
+ [.  .  .  .  B2 W3 .  W2 . ]
+ [.  .  B2 B3 .  .  W3 B0 B2]
+ [.  W2 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 18/39  W:18/44
+W plays ! Enter r,c : 4,3
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B3 .  B3 .  W3 W2 . ]
+ [.  .  W2 .  B2 W3 .  W2 . ]
+ [.  .  B1 B3 .  .  W3 B0 B2]
+ [.  W2 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 18/37  W:19/46
+B plays ! Enter r,c : 5,2
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B3 .  B3 .  W3 W2 . ]
+ [.  .  W2 .  B2 W3 .  W2 . ]
+ [.  B2 B0 B3 .  .  W3 B0 B2]
+ [.  W1 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 19/38  W:19/45
+W plays ! Enter r,c : 4,2
+[[.  B2 .  .  W3 .  .  W3 . ]
+ [.  B3 .  B4 .  W4 .  .  W3]
+ [.  .  B3 .  B3 .  W3 W2 . ]
+ [.  W2 W1 .  B2 W3 .  W2 . ]
+ [.  B1 B0 B3 .  .  W3 B0 B2]
+ [.  W1 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 19/37  W:20/46
+B plays ! Enter r,c : 1,6
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [.  .  B3 .  B3 .  W3 W2 . ]
+ [.  W2 W1 .  B2 W3 .  W2 . ]
+ [.  B1 B0 B3 .  .  W3 B0 B2]
+ [.  W1 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 20/38  W:20/44
+W plays ! Enter r,c : 3,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W3 .  B3 .  B3 .  W3 W2 . ]
+ [.  W2 W1 .  B2 W3 .  W2 . ]
+ [.  B1 B0 B3 .  .  W3 B0 B2]
+ [.  W1 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 20/38  W:21/47
+B plays ! Enter r,c : 4,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B1 W1 W1 .  B2 W3 .  W2 . ]
+ [.  B1 B0 B3 .  .  W3 B0 B2]
+ [.  W1 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 21/39  W:21/45
+W plays ! Enter r,c : 5,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W1 B0 B0 B3 .  .  W3 B0 B2]
+ [.  W1 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 21/37  W:22/46
+B plays ! Enter r,c : 6,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B1 W0 W1 .  B2 W2 .  W2 . ]
+ [.  B1 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 22/38  W:22/44
+W plays ! Enter r,c : 7,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W1 B0 B2 .  B2 B0 W1 B2 . ]
+ [.  W3 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 22/36  W:23/45
+B plays ! Enter r,c : 8,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B2 .  B2 B0 W1 B2 . ]
+ [B1 W2 .  B4 .  B1 W2 .  . ]
+ [.  .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 23/37  W:23/43
+W plays ! Enter r,c : 9,1
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B2 .  B2 B0 W1 B2 . ]
+ [B0 W2 .  B4 .  B1 W2 .  . ]
+ [W1 .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 23/36  W:24/44
+B plays ! Enter r,c : 9,2
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W0 B1 B2 .  B2 B0 W1 B2 . ]
+ [B1 .  .  B4 .  B1 W2 .  . ]
+ [W0 B2 .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 24/40  W:23/41
+W plays ! Enter r,c : 8,2
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B2 .  B2 B0 W1 B2 . ]
+ [B0 W3 .  B4 .  B1 W2 .  . ]
+ [W1 .  .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 23/36  W:24/45
+B plays ! Enter r,c : 9,2
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B2 .  B2 B0 W1 B2 . ]
+ [B0 W2 .  B4 .  B1 W2 .  . ]
+ [W0 B2 .  .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 24/38  W:24/43
+W plays ! Enter r,c : 9,3
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W3 .  W2 . ]
+ [W0 B0 B0 B3 .  .  W3 B0 B2]
+ [B0 W0 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B2 .  B2 B0 W1 B2 . ]
+ [B0 W2 .  B4 .  B1 W2 .  . ]
+ [W0 B0 W2 .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 24/36  W:25/45
+B plays ! Enter r,c : 5,6
+[[.  B2 .  .  W2 B1 .  W3 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B0 B3 .  B2 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B2 .  B2 B1 W1 B2 . ]
+ [B0 W2 .  B4 .  B1 W2 .  . ]
+ [W0 B0 W2 .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 25/40  W:24/41
+W plays ! Enter r,c : 1,7
+[[.  B2 .  .  W2 B0 W1 W2 . ]
+ [.  B3 .  B4 .  W3 .  .  W3]
+ [W2 .  B3 .  B3 .  W3 W2 . ]
+ [B0 W1 W1 .  B2 W2 .  W2 . ]
+ [W0 B0 B0 B3 .  B2 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B2 .  B2 B1 W1 B2 . ]
+ [B0 W2 .  B4 .  B1 W2 .  . ]
+ [W0 B0 W2 .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 25/39  W:25/41
+B plays ! Enter r,c : 3,6
+[[.  B2 .  .  W2 B0 W1 W2 . ]
+ [.  B3 .  B4 .  W2 .  .  W3]
+ [W2 .  B3 .  B2 B1 W2 W2 . ]
+ [B0 W1 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B0 B3 .  B3 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B2 .  B2 B1 W1 B2 . ]
+ [B0 W2 .  B4 .  B1 W2 .  . ]
+ [W0 B0 W2 .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 26/41  W:24/37
+W plays ! Enter r,c : 8,5
+[[.  B2 .  .  W2 B0 W1 W2 . ]
+ [.  B3 .  B4 .  W2 .  .  W3]
+ [W2 .  B3 .  B2 B1 W2 W2 . ]
+ [B0 W1 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B0 B3 .  B3 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B2 .  B1 B1 W1 B2 . ]
+ [B0 W2 .  B3 W2 B0 W2 .  . ]
+ [W0 B0 W2 .  .  W2 .  W3 . ]]
+Score (stones/liberties) :  B: 26/38  W:25/39
+B plays ! Enter r,c : 9,5
+[[.  B2 .  .  W2 B0 W1 W2 . ]
+ [.  B3 .  B4 .  W2 .  .  W3]
+ [W2 .  B3 .  B2 B1 W2 W2 . ]
+ [B0 W1 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B0 B3 .  B3 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B2 .  B1 B1 W1 B2 . ]
+ [B0 W2 .  B3 W0 B1 W2 .  . ]
+ [W0 B0 W2 .  B2 .  .  W3 . ]]
+Score (stones/liberties) :  B: 27/41  W:24/35
+W plays ! Enter r,c : 7,9
+[[.  B2 .  .  W2 B0 W1 W2 . ]
+ [.  B3 .  B4 .  W2 .  .  W3]
+ [W2 .  B3 .  B2 B1 W2 W2 . ]
+ [B0 W1 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B0 B3 .  B3 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W3 . ]
+ [W0 B0 B2 .  B1 B1 W2 .  W3]
+ [B0 W2 .  B3 W0 B1 W2 .  . ]
+ [W0 B0 W2 .  B2 .  .  W3 . ]]
+Score (stones/liberties) :  B: 26/39  W:25/40
+B plays ! Enter r,c : 2,5
+[[.  B2 .  .  .  B2 W1 W2 . ]
+ [.  B3 .  B3 B2 .  .  .  W3]
+ [W2 .  B3 .  B1 B2 W2 W2 . ]
+ [B0 W1 W1 .  B3 .  .  W2 . ]
+ [W0 B0 B0 B3 .  B3 W2 B0 B2]
+ [B0 W0 W1 .  B3 .  .  W3 . ]
+ [W0 B0 B2 .  B1 B1 W2 .  W3]
+ [B0 W2 .  B3 W0 B1 W2 .  . ]
+ [W0 B0 W2 .  B2 .  .  W3 . ]]
+Score (stones/liberties) :  B: 27/42  W:23/36
